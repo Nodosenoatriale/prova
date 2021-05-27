@@ -12,7 +12,7 @@
         <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
 
         <a-assets>
-            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/Nodosenoatriale/prova/master/prova%20pyre.gltf"></a-asset-item>
+            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/Nodosenoatriale/prova/master/model.glb"></a-asset-item>
         </a-assets>
 
         <a-marker type='barcode' value='7'>
@@ -21,7 +21,7 @@
 
         <a-marker preset='hiro'>
             <a-entity
-                gltf-model="#animated-asset"
+                glb-model="#animated-asset"
                 scale="2">
             </a-entity>
         </a-marker>
